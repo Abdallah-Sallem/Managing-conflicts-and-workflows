@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "crud-api"
+version = "0.1.0"
+description = "FastAPI example for Git for developers: managing workflows and conflicts project on coursera platform"
+authors = ["Henrique Branco <henrique.ajnbranco@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
